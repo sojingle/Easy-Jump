@@ -1,0 +1,25 @@
+{
+	"name": "Easy Jump",
+	"version": "0.1.0.2",
+	
+	"description": "Jump to a url by inputting a simple symbol.",
+	"icons": {
+		"128": "assets/images/icon-128.png",
+		"32": "assets/images/icon-32.png",
+		"16": "assets/images/icon-16.png"
+	},
+
+	"permission": [
+		"tabs",
+		"http://*/",
+		"https://*/"
+	],
+
+	"browser_action": {
+		"default_icon": "assets/images/icon-19.png",
+		"popup": "popup.html"
+	},
+
+	"options_page": "options.html",
+	"background_page": "background.html"
+} 

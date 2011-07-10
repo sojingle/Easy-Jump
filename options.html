@@ -1,0 +1,54 @@
+<!--//////////////////////////////////////////////////////////////////////
+//																		//
+// EasyJump (c) 2011 sojingle.net all rights reserved.					//
+//																		//
+///////////////////////////////////////////////////////////////////////-->
+
+<html>
+	<head>
+		<title>Easy Jump Options</title>
+		<link rel="stylesheet" href="assets/styles/options.css" type="text/css" />
+		<script src="assets/libs/jquery-1.5.2.min.js" type="text/javascript" ></script>
+		<script src="assets/scripts/options.js" type="text/javascript" ></script>
+	</head>
+	<body onload="init()">
+		<div id="header">
+		</div>
+
+		<div id="body">
+			<div id=optionsContainer">
+				<div id="rules">
+					<table id="rulesTable" class="optionGroup">
+						<tr class="tableHeader">
+							<th class="ruleName">Rule Name</th>
+							<th class="symbolPattern">Symbol Pattern</th>
+							<th class="replaceUrl">Replace URL</th>
+							<th class="removeButton"></th>
+						</tr>
+						<!--
+						<tr class="ruleRow">
+							<td><input class="ruleName" type="text"/></td>
+							<td><input class="symbolPattern" type="text"/></td>
+							<td><input class="replaceUrl" type="text"/></td>
+							<td><button class="removeButton" onclick="deleteRow()">Delete</button></td>
+						</tr>
+						-->
+					</table>
+					<button class="button" id="newRule" onclick="newRow()">Add Rule</button>
+				</div>
+			</div>
+			<div id="control" class="control">
+				<button onclick="saveOptions();" >Save</button>
+				<button onclick="closeWindow();" >Close</button>
+				<button onclick="restoreOptions();">Restore</button>
+				<div id="status"></div>
+			</div>
+			<div id="help" class="help">
+				<p>This app matching the symbols with Regular Expression. 
+				For more information about it, please see: 
+				<a href="http://www.w3schools.com/jsref/jsref_obj_regexp.asp" target="_blank">RegExp</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

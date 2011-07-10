@@ -1,0 +1,35 @@
+/*////////////////////////////////////////////////////////////////////////
+//																		//
+// EasyJump (c) 2011 sojingle.net all rights reserved.					//
+//																		//
+////////////////////////////////////////////////////////////////////////*/
+
+#rulesTable 
+{
+	width: 900px;
+}
+
+#rulesTable input
+{
+	width: 100%;
+}
+
+#rulesTable .ruleName
+{
+	width: 120px;
+}
+
+#rulestable .symbolPattern
+{
+	width: 140px;
+}
+
+#rulestable .replaceUrl
+{
+	width: 100%;
+}
+
+#rulestable .removeButton
+{
+	width: 60px;
+}
