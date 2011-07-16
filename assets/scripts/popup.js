@@ -68,6 +68,9 @@ function getUrl(symbol) {
 		return undefined;
 	}
 
+	// Remove the blanks
+	symbol = symbol.replace(/\s/g, "");
+
 	for(var i = 0; i < rules.length; i++) {
 		var rule = rules[i];
 
