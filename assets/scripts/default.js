@@ -4,7 +4,7 @@
 //																		//
 ////////////////////////////////////////////////////////////////////////*/
 
-var DefaultRules = '[["Bilibili","av[0-9]+","bilibili.tv/$&","r"],["Nico","sm[0-9]+","www.nicovideo.jp/watch/$&","r"],["Acfun","ac([0-9]+)","www.google.com/cse?cx=partner-pub-1186646738938701%3Alsdh4u-mncd&q=$1","r"],["115","115(.+)","u.115.com/file/$1","r"],["Youtube","tube(.+)","www.youtube.com/watch?v=$1","r"]]';
+var DefaultRules = '[["Bilibili","av[0-9]+","bilibili.tv/$&","r"],["Nico","sm[0-9]+","www.nicovideo.jp/watch/$&","r"],["Acfun","ac[0-9]+","acfun.tv/$&","r"],["115","115(.+)","u.115.com/file/$1","r"],["Youtube","tube(.+)","www.youtube.com/watch?v=$1","r"]]';
 
 var details = chrome.app.getDetails();
 
